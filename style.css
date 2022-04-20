@@ -200,7 +200,7 @@ a {
 	text-align: center;
 }
 .offer hr {
-	width: 150px;
+	width: 80px;
   height: 3px;
 	background: #F4CB08;
 	border: none;
@@ -209,4 +209,35 @@ a {
 .offer h1 {
 	padding: 20px 0;
 	font-size: 40px;
+}
+.serevice_content_left{
+  display: flex;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+.planning{
+  display: flex;
+  gap: 10px;
+}
+.serevice_content_right{
+  display: flex;
+  justify-content: space-evenly;
+}
+.planning i {
+	font-size: 35px;
+	background: none;
+	border: 2px solid #F4CB08;
+	padding: 15px;
+	border-radius: 10px;
+	width: 70px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.pera h2 {
+	font-size: 20px;
+}
+.pera h2 {
+	font-size: 20px;
+	padding-bottom: 15px;
 }
