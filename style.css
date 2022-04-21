@@ -150,11 +150,11 @@ a {
   background: #dcb707;
 }
 .building {
-	background: url("./image/desing\ image.png");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 300px;
+  background: url("./image/desing\ image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
 }
 .construction {
   background: url("./image/construction\ image.png");
@@ -169,16 +169,16 @@ a {
   background-repeat: no-repeat;
 }
 .image_section {
-	width: 100%;
-	display: flex;
-	padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  padding: 100px 0px;
 }
 .desing {
-	color: #fff;
-	margin: 140px 20px 0;
+  color: #fff;
+  margin: 200px 20px 0;
 }
 .desing h1 {
-	font-size: 25px;
+  font-size: 25px;
 }
 .bottom_text {
   padding-bottom: 50px;
@@ -190,54 +190,176 @@ a {
   background: #f4cb08;
 }
 .line {
-	padding: 15px 0px;
+  padding: 15px 0px;
+}
+.desing p {
+  font-size: 21px;
 }
 .service_section {
-	width: 1140px;
-	margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
 .offer {
-	text-align: center;
+  text-align: center;
 }
 .offer hr {
-	width: 80px;
+  width: 80px;
   height: 3px;
-	background: #F4CB08;
-	border: none;
+  background: #f4cb08;
+  border: none;
   margin: 0 auto;
 }
 .offer h1 {
-	padding: 20px 0;
-	font-size: 40px;
+  padding: 20px 0;
+  font-size: 40px;
 }
-.serevice_content_left{
+.serevice_content_left {
   display: flex;
   padding: 100px 0;
   margin: 0 auto;
 }
-.planning{
+.planning {
   display: flex;
   gap: 10px;
 }
-.serevice_content_right{
+.serevice_content_right {
   display: flex;
   justify-content: space-evenly;
 }
 .planning i {
-	font-size: 35px;
-	background: none;
-	border: 2px solid #F4CB08;
-	padding: 15px;
-	border-radius: 10px;
-	width: 70px;
-	text-align: center;
-	height: 40px;
-	line-height: 40px;
+  font-size: 35px;
+  background: none;
+  border: 2px solid #f4cb08;
+  padding: 15px;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
 }
 .pera h2 {
-	font-size: 20px;
+  font-size: 20px;
 }
 .pera h2 {
-	font-size: 20px;
-	padding-bottom: 15px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.project_content {
+  background: #2c2c2c;
+  padding: 50px 0;
+  text-align: center;
+}
+.project_content hr {
+  width: 80px;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  background: #f4cb08;
+  height: 3px;
+}
+.project_content h1 {
+  color: white;
+  padding: 20px 0;
+  font-size: 40px;
+  color: #ffffff;
+}
+.project_content h4 {
+  color: #f4cb08;
+  font-size: 25px;
+}
+.project_image {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project_image img {
+  width: 337px;
+}
+.project {
+  padding-top: 100px;
+}
+.best_world {
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.best_world_content h3 {
+  color: #f4cb08;
+  font-size: 30px;
+}
+.best_world_content h1 {
+  font-size: 47px;
+  padding: 20px 0;
+}
+.best_world_content hr {
+  width: 80px;
+  height: 3px;
+  background: #f4cb08;
+  border: none;
+}
+.best_world_content p {
+  font-size: 20px;
+  padding: 40px 0;
+}
+.best_world_content a {
+  padding: 15px 40px;
+  background: #f4cb08;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+.ajaira {
+  padding: 20px 0;
+}
+.amount {
+  background: url("./image/section\ seven\ banner.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+.number {
+  text-align: center;
+  margin: 0 auto;
+}
+.number h1 {
+  color: #f4cb08;
+  font-size: 40px;
+}
+.number p {
+  font-size: 25px;
+  padding: 25px 0 40px 0;
+}
+.number hr {
+  width: 60px;
+  margin: 0 auto;
+  background: #f4cb08;
+  height: 3px;
+}
+.work_plan {
+  padding: 100px 0;
+}
+.head {
+  text-align: center;
+}
+.head_line hr {
+  width: 70px;
+  height: 3px;
+  background: #f4cb08;
+  margin: 0 auto;
+  border: none;
+}
+.head h4 {
+  color: #f4cb08;
+  font-size: 25px;
+  font-weight: 200;
+}
+.head h1 {
+  padding: 20px 0;
+  font-size: 40px;
 }
